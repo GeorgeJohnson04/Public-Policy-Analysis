@@ -1,57 +1,97 @@
-# Policy Memo Project
+# 📊 Policy Shift Impact Analysis  
 
-## Overview
-This repository contains an individual policy memo project for POLC 3322, following Bardach’s Eightfold Path for Policy Analysis. The project consists of four parts and evaluates a public policy problem, assessing multiple policy alternatives and their projected outcomes.
+This repository contains an analysis of **GDP, GDP per capita, and wealth disparity** in response to different **policy shifts** such as **tax cuts** and **tariff increases**. The study uses economic elasticity models to simulate possible outcomes.
 
-## Project Structure
-- **Policy Memo Part 1**: Introduction to the policy problem and its context.
-- **Policy Memo Part 2**: Evaluation of multiple policy alternatives.
-- **Policy Memo Part 3**: Quantitative analysis of policy impacts.
-- **Policy Memo Part 4** (Upcoming): Final recommendations and conclusions.
+---
 
-## Policy Analysis Framework
-The memo adheres to the Eightfold Path framework:
-1. Define the Problem
-2. Assemble the Evidence
-3. Construct the Alternatives
-4. Select the Criteria
-5. Project the Outcomes
-6. Confront the Trade-offs
-7. Decide
-8. Tell Your Story
+## 📁 Files in This Repository  
 
-## Replicating the Donald Trump Policy Analysis in R
-This project builds upon a previous analysis conducted in MATLAB that examined the economic impacts of Donald Trump’s tax and tariff policies. The original model has been adapted and transformed into R for this study, utilizing **ggplot2** for visualization and quantitative policy assessment.
+- `change_in_GDP.png` - 📈 Change in GDP with Policy Shifts  
+- `change_in_GDP_per_capita.png` - 💰 Change in GDP Per Capita  
+- `change_in_wealth_disparity.png` - 🔀 Change in Wealth Disparity  
+- `wealth_disparity_probability_table.png` - 📋 Probability Table for Wealth Disparity Increase  
+- `analysis_script.py` - 📝 Python script used for data processing and visualization  
+- `README.md` - 📘 You’re reading it now!  
 
-Key transformations from MATLAB to R include:
-- **Economic modeling** of GDP, wealth concentration, and policy shifts using R functions.
-- **Elasticity-based projections** for GDP and wealth disparity.
-- **Data visualization** using `ggplot2` instead of MATLAB’s plotting functions.
+---
 
-## Data Analysis
-The project uses R for quantitative analysis, specifically leveraging **ggplot2** for visualizing the effects of policy shifts on GDP, GDP per capita, and wealth disparity. The analysis includes:
-- **Modeling the economic impact** of tax and tariff changes.
-- **Projecting GDP changes** using elasticity factors.
-- **Evaluating wealth disparity shifts** based on policy adjustments.
+## 📖 Methodology  
+The analysis is based on the following key factors:  
+✅ **GDP Elasticity**: Influenced by consumption, investment, and government spending.  
+✅ **Wealth Disparity Elasticity**: Modeled using proportional changes in wealth concentration.  
+✅ **Policy Shift Variables**: Includes changes in tax rates and tariff percentages.  
 
-### Key Code Features:
-- GDP projections based on elasticity models.
-- Wealth concentration shifts under different policy scenarios.
-- Data visualization to compare policy impacts.
+The dataset is generated using **Python (NumPy, Pandas, Matplotlib)** to calculate and visualize the effects of different policy adjustments.  
 
-## Requirements
-To run the R analysis, install the required package:
-```r
-install.packages("ggplot2")
-```
+---
 
-## Submission Details
-- **Course:** POLC 3322
-- **Assignment:** Individual Policy Memo Project - Final Draft (150 points, 15% of grade)
-- **Due Date:** April 5, 2025, 11:59 PM
+## 📊 Visualizations & Findings  
 
-## Future Work
-The final part of this project will include a comprehensive evaluation of trade-offs and a final policy recommendation based on the projected outcomes.
+### 🔹 Change in GDP with Policy Shifts  
+<p align="center">
+  <img src="change_in_GDP.png" width="600"/>
+</p>  
 
-## Author
-George Johnson
+**📌 Interpretation**  
+- A **2% tax cut** leads to a noticeable **increase in GDP**.
+- A **25% tariff increase** also boosts GDP under this model.
+- However, these gains are **not evenly distributed**—GDP may grow, but who benefits is the key question.
+
+**🧠 Why it matters**  
+- Tax cuts typically boost investment and spending, but the benefits often **concentrate among higher-income groups**.
+- Tariffs can **stimulate domestic production** but may **raise costs** elsewhere in the economy.
+
+---
+
+### 🔹 Change in GDP Per Capita with Policy Shifts  
+<p align="center">
+  <img src="change_in_GDP_per_capita.png" width="600"/>
+</p>  
+
+**📌 Interpretation**  
+- Both tax cuts and tariff increases show an **upward trend in GDP per capita**.
+- GDP per capita rises steadily with the degree of policy change.
+
+**🧠 Why it matters**  
+- While this suggests more economic output per person, it doesn’t mean **everyone’s income rises equally**.
+- The **distribution of that growth** is crucial for understanding real-world impact.
+
+---
+
+### 🔹 Change in Wealth Disparity with Policy Shifts  
+<p align="center">
+  <img src="change_in_wealth_disparity.png" width="600"/>
+</p>  
+
+**📌 Interpretation**  
+- Wealth disparity increases **consistently** as policy shifts grow.
+- The 2% tax cut and 25% tariff both correspond to **increased wealth for the top 10%**.
+
+**🧠 Why it matters**  
+- This means that while GDP is rising, the **wealth gap is widening**.
+- Policies favoring growth can sometimes **intensify inequality**, depending on how gains are distributed.
+
+---
+
+### 🔹 Wealth Disparity Probability Table  
+<p align="center">
+  <img src="wealth_disparity_probability_table.png" width="600"/>
+</p>  
+
+**📌 Interpretation**  
+- When policy shifts are small (<3%), there’s only a **50% chance** wealth disparity will increase.  
+- At **6% shift**, the chance rises to **80%**.
+- At **>9%**, disparity almost certainly rises (**100% probability**).
+
+**🧠 Why it matters**  
+- This quantifies the **likelihood** that inequality increases as policies become more extreme.
+- It provides a **risk framework** for decision-makers concerned about equity impacts.
+
+---
+
+## 📌 Summary of Key Takeaways  
+| 🔹 Finding | 📌 Explanation |
+|------------|--------------|
+| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
+| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
+| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
