@@ -5,12 +5,10 @@ This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Dispar
 
 ---
 
-## 📌 Abstract / Summary of Key Takeaways  
-| 🔹 Finding | 📌 Explanation |
-|------------|--------------|
-| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
-| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
-| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
+ **Abstract**  
+>  
+> This project explores how economic policy shifts—specifically tax cuts and tariff increases—affect gross domestic product (GDP), GDP per capita, and wealth inequality in the United States. Using elasticity-based modeling, the analysis simulates changes under various policy scenarios to evaluate both economic growth and distributional outcomes. While modest shifts stimulate GDP growth, the findings reveal a consistent trend of rising wealth concentration among the top 10%, especially as policy changes grow more extreme. The results highlight the trade-offs between economic expansion and equitable distribution, offering insights for policymakers, economists, and analysts seeking to understand the long-term effects of fiscal and trade interventions.
+
 
 ---
 ## 📁 Files in This Repository 
@@ -98,3 +96,9 @@ The dataset is generated using **Python (NumPy, Pandas, Matplotlib)** to calcula
 - This quantifies the **likelihood** that inequality increases as policies become more extreme.
 - It provides a **risk framework** for decision-makers concerned about equity impacts.
 
+## 📌Summary of Key Takeaways  
+| 🔹 Finding | 📌 Explanation |
+|------------|--------------|
+| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
+| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
+| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
