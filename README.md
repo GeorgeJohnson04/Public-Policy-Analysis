@@ -5,6 +5,14 @@ This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Dispar
 
 ---
 
+## 📌 Summary of Key Takeaways  
+| 🔹 Finding | 📌 Explanation |
+|------------|--------------|
+| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
+| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
+| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
+
+---
 ## 📁 Files in This Repository 
 
 - All the PNG files are different writing stages of the Project with  **`George J Policy Memo 4.png`  being the final version**
@@ -90,11 +98,3 @@ The dataset is generated using **Python (NumPy, Pandas, Matplotlib)** to calcula
 - This quantifies the **likelihood** that inequality increases as policies become more extreme.
 - It provides a **risk framework** for decision-makers concerned about equity impacts.
 
----
-
-## 📌 Summary of Key Takeaways  
-| 🔹 Finding | 📌 Explanation |
-|------------|--------------|
-| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
-| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
-| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
