@@ -4,13 +4,15 @@ This repository contains an analysis of **GDP, GDP per capita, and wealth dispar
 
 ---
 
-## 📁 Files in This Repository  
+## 📁 Files in This Repository 
 
+- All the PNG files are different writing stages of the Project with  **`George J Policy Memo 4.png`  being the final version**
 - `change_in_GDP.png` - 📈 Change in GDP with Policy Shifts  
 - `change_in_GDP_per_capita.png` - 💰 Change in GDP Per Capita  
 - `change_in_wealth_disparity.png` - 🔀 Change in Wealth Disparity  
-- `wealth_disparity_probability_table.png` - 📋 Probability Table for Wealth Disparity Increase  
-- `analysis_script.py` - 📝 Python script used for data processing and visualization  
+- `wealth_disparity_probability_table.png` - 📋 Probability Table for Wealth Disparity Increase
+- `Policy Memo Part 3 Code` - 📝 R Script original that was originally used for part 3 later went to python
+- `Policy Memo Part 4.pynb` - 📝 Python script used for data processing and visualization  
 - `README.md` - 📘 You’re reading it now!  
 
 ---
