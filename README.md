@@ -5,7 +5,7 @@ This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Dispar
 
 ---
 
-## 📌 Summary of Key Takeaways  
+## 📌 Abstract / Summary of Key Takeaways  
 | 🔹 Finding | 📌 Explanation |
 |------------|--------------|
 | **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
