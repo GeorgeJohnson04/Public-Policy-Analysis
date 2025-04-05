@@ -63,3 +63,4 @@ ggplot(data, aes(x = policy_shift, y = Wealth_values - wealth_top10_current)) +
        y = "Change in Wealth Disparity (%)") +
   theme_minimal()
 
+
