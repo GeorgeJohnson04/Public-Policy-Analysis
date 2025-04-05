@@ -96,6 +96,8 @@ The dataset is generated using **Python (NumPy, Pandas, Matplotlib)** to calcula
 - This quantifies the **likelihood** that inequality increases as policies become more extreme.
 - It provides a **risk framework** for decision-makers concerned about equity impacts.
 
+---
+
 ## 📌Summary of Key Takeaways  
 | 🔹 Finding | 📌 Explanation |
 |------------|--------------|
