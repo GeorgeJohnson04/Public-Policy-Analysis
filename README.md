@@ -19,7 +19,7 @@ This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Dispar
 - `change_in_wealth_disparity.png` - 🔀 Change in Wealth Disparity  
 - `wealth_disparity_probability_table.png` - 📋 Probability Table for Wealth Disparity Increase
 - `Policy Memo Part 3 Code,R` - 📝 R Script original that was originally used for part 3 later went to python
-- `Policy Memo Part 4.pynb` - 📝 Python script used for data processing and visualization  
+- `Policy Memo Part 4.ipynb` - 📝 Python script used for data processing and visualization  
 - `README.md` - 📘 You’re reading it now!  
 
 ---
