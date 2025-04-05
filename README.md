@@ -1,6 +1,6 @@
 # 📊 Policy Memo Final Project - Public Policy Analysis
 
-This repository contains an analysis of **GDP, GDP per capita, and wealth disparity** in response to different **policy shifts** such as **tax cuts** and **tariff increases**. The study uses economic elasticity models to simulate possible outcomes.
+This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Disparity** in response to different **policy shifts** such as **tax cuts** and **tariff increases**. The study uses economic elasticity models to simulate possible outcomes.
 - This is a reanlysis of the MATLAB repository
 
 ---
