@@ -1,106 +1,123 @@
-# 📊 Policy Memo Final Project - Public Policy Analysis
+# 📊 Policy Memo Final Project — Public Policy Analysis  
 
-This repository contains an analysis of **GDP, GDP Per Capita, and Wealth Disparity** in response to different **policy shifts** such as **tax cuts** and **tariff increases**. The study uses economic elasticity models to simulate possible outcomes.
-- This is a reanlysis of the MATLAB repository
+This repository contains a comprehensive analysis of **GDP**, **GDP Per Capita**, and **Wealth Disparity** in response to different **fiscal and trade policy shifts**, such as tax cuts and tariff increases. Using elasticity-based economic modeling, this project simulates and visualizes outcomes under various policy scenarios.  
 
----
-
- **Abstract**  
->  
-> This project explores how economic policy shifts—specifically tax cuts and tariff increases—affect gross domestic product (GDP), GDP per capita, and wealth inequality in the United States. Using elasticity-based modeling, the analysis simulates changes under various policy scenarios to evaluate both economic growth and distributional outcomes. While modest shifts stimulate GDP growth, the findings reveal a consistent trend of rising wealth concentration among the top 10%, especially as policy changes grow more extreme. The results highlight the trade-offs between economic expansion and equitable distribution, offering insights for policymakers, economists, and analysts seeking to understand the long-term effects of fiscal and trade interventions.
-
-
----
-## 📁 Files in This Repository 
-
-- All the PNG files are different writing stages of the Project with  **`George J Policy Memo 4.png`  being the final version**
-- `change_in_GDP.png` - 📈 Change in GDP with Policy Shifts  
-- `change_in_GDP_per_capita.png` - 💰 Change in GDP Per Capita  
-- `change_in_wealth_disparity.png` - 🔀 Change in Wealth Disparity  
-- `wealth_disparity_probability_table.png` - 📋 Probability Table for Wealth Disparity Increase
-- `Policy Memo Part 3 Code,R` - 📝 R Script original that was originally used for part 3 later went to python
-- `Policy Memo Part 4.ipynb` - 📝 Python script used for data processing and visualization  
-- `README.md` - 📘 You’re reading it now!  
+🔁 This is a **reanalysis** of the original MATLAB repository, now fully developed in Python and supplemented by a final policy memo.
 
 ---
 
-## 📖 Methodology  
-The analysis is based on the following key factors:  
-✅ **GDP Elasticity**: Influenced by consumption, investment, and government spending.  
-✅ **Wealth Disparity Elasticity**: Modeled using proportional changes in wealth concentration.  
-✅ **Policy Shift Variables**: Includes changes in tax rates and tariff percentages.  
-
-The dataset is generated using **Python (NumPy, Pandas, Matplotlib)** to calculate and visualize the effects of different policy adjustments.  
+## 🧾 Final Report  
+📄 **[Policy Memo Part 4 (Final) George Johnson.pdf](./Policy%20Memo%20Part%204%20(Final)%20George%20Johnson.pdf)**  
+This document is the final write-up for the project, summarizing the results, methodology, and policy implications in a concise, professional memo format.
 
 ---
 
-## 📊 Visualizations & Findings  
+## ✨ Abstract  
 
-### 🔹 Change in GDP with Policy Shifts  
-<p align="center">
-  <img src="change_in_GDP.png" width="600"/>
-</p>  
-
-**📌 Interpretation**  
-- A **2% tax cut** leads to a noticeable **increase in GDP**.
-- A **25% tariff increase** also boosts GDP under this model.
-- However, these gains are **not evenly distributed**—GDP may grow, but who benefits is the key question.
-
-**🧠 Why it matters**  
-- Tax cuts typically boost investment and spending, but the benefits often **concentrate among higher-income groups**.
-- Tariffs can **stimulate domestic production** but may **raise costs** elsewhere in the economy.
+> This project explores how economic policy shifts—specifically **tax cuts** and **tariff increases**—affect gross domestic product (GDP), GDP per capita, and wealth inequality in the United States. Using elasticity-based modeling, the analysis simulates changes under various policy scenarios to evaluate both economic growth and distributional outcomes. While modest shifts stimulate GDP growth, the findings reveal a consistent trend of rising wealth concentration among the top 10%, especially as policy changes grow more extreme. The results highlight the **trade-offs between economic expansion and equity**, offering insights for policymakers and analysts alike.
 
 ---
 
-### 🔹 Change in GDP Per Capita with Policy Shifts  
-<p align="center">
-  <img src="change_in_GDP_per_capita.png" width="600"/>
-</p>  
+## 🗂️ Files in This Repository  
 
-**📌 Interpretation**  
-- Both tax cuts and tariff increases show an **upward trend in GDP per capita**.
-- GDP per capita rises steadily with the degree of policy change.
-
-**🧠 Why it matters**  
-- While this suggests more economic output per person, it doesn’t mean **everyone’s income rises equally**.
-- The **distribution of that growth** is crucial for understanding real-world impact.
-
----
-
-### 🔹 Change in Wealth Disparity with Policy Shifts  
-<p align="center">
-  <img src="change_in_wealth_disparity.png" width="600"/>
-</p>  
-
-**📌 Interpretation**  
-- Wealth disparity increases **consistently** as policy shifts grow.
-- The 2% tax cut and 25% tariff both correspond to **increased wealth for the top 10%**.
-
-**🧠 Why it matters**  
-- This means that while GDP is rising, the **wealth gap is widening**.
-- Policies favoring growth can sometimes **intensify inequality**, depending on how gains are distributed.
+| File | Description |
+|------|-------------|
+| `Policy Memo Part 4.ipynb` | 🔍 Final Python notebook for simulation, visualization, and analysis |
+| `Policy Memo Part 3 Code,R` | 📄 Original R script used in Part 3 (early stage) |
+| `change_in_GDP.png` | 📈 Visualization of GDP change vs. policy shift |
+| `change_in_GDP_per_capita.png` | 💵 GDP per capita as a function of policy shift |
+| `change_in_wealth_disparity.png` | 🏦 Wealth disparity growth with increasing policy shift |
+| `wealth_disparity_probability_table.png` | 📊 Table quantifying probability of inequality increase |
+| `policy_predictions_table.png` | 🧠 Policy scenario table showing predicted impacts |
+| `George J Policy Memo 4.png` | 📌 Final draft of memo (PNG form) |
+| `README.md` | 📘 This file |
 
 ---
 
-### 🔹 Wealth Disparity Probability Table  
-<p align="center">
-  <img src="wealth_disparity_probability_table.png" width="600"/>
-</p>  
+## 🧪 Methodology  
 
-**📌 Interpretation**  
-- When policy shifts are small (<3%), there’s only a **50% chance** wealth disparity will increase.  
-- At **6% shift**, the chance rises to **80%**.
-- At **>9%**, disparity almost certainly rises (**100% probability**).
+The analysis is based on the following key components:
 
-**🧠 Why it matters**  
-- This quantifies the **likelihood** that inequality increases as policies become more extreme.
-- It provides a **risk framework** for decision-makers concerned about equity impacts.
+- ✅ **GDP Elasticity Model**  
+  GDP is a function of elasticity across **consumption**, **investment**, and **government spending**:
+  \[
+  GDP(θ) = GDP_{\text{current}} \times (1 + \text{Elasticity} \times θ)
+  \]
+
+- ✅ **Wealth Disparity Modeling**  
+  Modeled as proportional growth in top 10% share based on overall shift intensity.
+
+- ✅ **Policy Shift Definition**  
+  Combined influence of **tax rate change (ΔT)** and **tariff increase (ΔTariff)** is modeled as a single shift parameter θ.
+
+- ✅ **Libraries Used**  
+  - `NumPy`, `Pandas` — numerical processing  
+  - `Matplotlib` — plotting and tables  
 
 ---
 
-## 📌Summary of Key Takeaways  
-| 🔹 Finding | 📌 Explanation |
-|------------|--------------|
-| **Tax cuts boost GDP but increase wealth disparity** | High earners benefit the most, widening the income gap. |
-| **Tariff increases raise GDP per capita** | Protectionism supports domestic industries but may increase consumer prices. |
-| **Wealth disparity rises significantly with strong policy shifts** | If shifts exceed 6%, the wealth gap almost certainly increases. |
+## 📊 Visual Findings  
+
+### 🟦 GDP Change  
+<img src="change_in_GDP.png" width="600"/>
+
+- 📈 **Tax cut (2%)** and **tariff increase (25%)** both result in increased GDP.  
+- ⚠️ However, benefits are **not equitably distributed**.
+
+---
+
+### 🟨 GDP Per Capita  
+<img src="change_in_GDP_per_capita.png" width="600"/>
+
+- GDP per capita grows steadily with increasing θ.  
+- Real income gains, however, depend on **distribution**.
+
+---
+
+### 🟥 Wealth Disparity  
+<img src="change_in_wealth_disparity.png" width="600"/>
+
+- Wealth concentration among the top 10% **rises in all cases**.  
+- Suggests policies may widen inequality even as GDP grows.
+
+---
+
+### 🟫 Probability of Inequality Increase  
+<img src="wealth_disparity_probability_table.png" width="600"/>
+
+- At small policy shifts (θ < 3%), only a **50% chance** of increased inequality.  
+- Beyond θ = 6%, the probability spikes to **80–100%**.
+
+---
+
+### 🟪 Predicted Policy Outcomes  
+<img src="policy_predictions_table.png" width="800"/>
+
+- Scenarios such as **"Trump Plan"** and **"Targeted Luxury Tariffs"** yield high GDP but also high inequality.  
+- Balanced options like **"VAT + Social Safety Expansion"** offer more moderate outcomes.
+
+---
+
+## 🧷 Summary Table  
+
+| ✅ Policy Effect | 📌 Explanation |
+|-----------------|----------------|
+| **Tax cuts increase GDP but worsen inequality** | High earners see larger relative benefits |
+| **Tariffs raise GDP per capita** | Boosts domestic production but raises prices |
+| **Inequality grows sharply with policy magnitude** | Disparity becomes almost certain with θ > 9% |
+
+---
+
+## 🧠 Policy Implications  
+
+This project provides a flexible modeling framework to assess **real-world trade-offs** in public policy. It allows decision-makers to:
+
+- Simulate fiscal or trade policies
+- Evaluate impacts on GDP and inequality
+- Compare distributional consequences of popular plans
+
+---
+
+## 📎 Citation  
+> Johnson, George. *Policy Memo: Fiscal and Trade Policy Impact Analysis* (2025). Public Policy Final Project, Python Reanalysis.
+
