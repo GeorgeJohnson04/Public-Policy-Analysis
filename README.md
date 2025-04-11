@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive analysis of **GDP**, **GDP Per Capita**, and **Wealth Disparity** in response to different **fiscal and trade policy shifts**, such as tax cuts and tariff increases. Using elasticity-based economic modeling, this project simulates and visualizes outcomes under various policy scenarios.  
 
-🔁 This is a **reanalysis** of the original MATLAB repository, now fully developed in Python and supplemented by a final policy memo.
+This is a **reanalysis** of the original MATLAB repository, now fully developed in Python and supplemented by a final policy memo.
 
 ---
 
@@ -22,15 +22,15 @@ This document is the final write-up for the project, summarizing the results, me
 
 | File | Description |
 |------|-------------|
-| `Policy Memo Part 4.ipynb` | 🔍 Final Python notebook for simulation, visualization, and analysis |
-| `Policy Memo Part 3 Code,R` | 📄 Original R script used in Part 3 (early stage) |
-| `change_in_GDP.png` | 📈 Visualization of GDP change vs. policy shift |
-| `change_in_GDP_per_capita.png` | 💵 GDP per capita as a function of policy shift |
-| `change_in_wealth_disparity.png` | 🏦 Wealth disparity growth with increasing policy shift |
-| `wealth_disparity_probability_table.png` | 📊 Table quantifying probability of inequality increase |
-| `policy_predictions_table.png` | 🧠 Policy scenario table showing predicted impacts |
-| `George J Policy Memo 4.png` | 📌 Final draft of memo (PNG form) |
-| `README.md` | 📘 This file |
+| `Policy Memo Part 4.ipynb` |  Final Python notebook for simulation, visualization, and analysis |
+| `Policy Memo Part 3 Code,R` |  Original R script used in Part 3 (early stage) |
+| `change_in_GDP.png` |  Visualization of GDP change vs. policy shift |
+| `change_in_GDP_per_capita.png` |  GDP per capita as a function of policy shift |
+| `change_in_wealth_disparity.png` |  Wealth disparity growth with increasing policy shift |
+| `wealth_disparity_probability_table.png` |  Table quantifying probability of inequality increase |
+| `policy_predictions_table.png` |  Policy scenario table showing predicted impacts |
+| `George J Policy Memo 4.png` |  Final draft of memo (PNG form) |
+| `README.md` |  This file |
 
 ---
 
