@@ -38,19 +38,19 @@ This document is the final write-up for the project, summarizing the results, me
 
 The analysis is based on the following key components:
 
-- ✅ **GDP Elasticity Model**  
+-  **GDP Elasticity Model**  
   GDP is a function of elasticity across **consumption**, **investment**, and **government spending**:
   \[
   GDP(θ) = GDP_{\text{current}} \times (1 + \text{Elasticity} \times θ)
   \]
 
-- ✅ **Wealth Disparity Modeling**  
+-  **Wealth Disparity Modeling**  
   Modeled as proportional growth in top 10% share based on overall shift intensity.
 
-- ✅ **Policy Shift Definition**  
+-  **Policy Shift Definition**  
   Combined influence of **tax rate change (ΔT)** and **tariff increase (ΔTariff)** is modeled as a single shift parameter θ.
 
-- ✅ **Libraries Used**  
+-  **Libraries Used**  
   - `NumPy`, `Pandas` — numerical processing  
   - `Matplotlib` — plotting and tables  
 
@@ -61,8 +61,8 @@ The analysis is based on the following key components:
 ### 🟦 GDP Change  
 <img src="change_in_GDP.png" width="600"/>
 
-- 📈 **Tax cut (2%)** and **tariff increase (25%)** both result in increased GDP.  
-- ⚠️ However, benefits are **not equitably distributed**.
+-  **Tax cut (2%)** and **tariff increase (25%)** both result in increased GDP.  
+-  However, benefits are **not equitably distributed**.
 
 ---
 
